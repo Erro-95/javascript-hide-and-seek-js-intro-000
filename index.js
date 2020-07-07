@@ -12,6 +12,6 @@ function increaseRankBy(n){
 
   for (let i in listItems){
     const parseString = parseInt(listItems[i].innerHTML)
-    return listItems[i].innerHTML = `${parseString + n}`
+    listItems[i].innerHTML = `${parseString + n}`
   }
 }
