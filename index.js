@@ -23,7 +23,7 @@ function deepestChild(){
   while (current){
     console.log(current)
     if (typeof current == 'string'){
-      
+
       return current
     }
 
