@@ -21,15 +21,13 @@ function deepestChild(){
   let next;
 
   while (current){
-    console.log(current.querySelector('div') != undefined)
-    if (current == 'string'){
 
-      return current
-    }
-
-    else {
+    if (current.querySelector('div') != undefined){
       next = current
       current = next.querySelector('div')
+    }
+    else {
+      return current
     }
   }
 }
