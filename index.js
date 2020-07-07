@@ -21,7 +21,7 @@ function deepestChild(){
   let next;
 
   while (current){
-    console.log(current)
+    console.log(typeof current)
     if (typeof current == 'string'){
 
       return current
